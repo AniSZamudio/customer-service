@@ -54,9 +54,9 @@ La aplicación utiliza H2, una base de datos en memoria, ideal para pruebas ráp
 🔗 Consola H2: [http://localhost:8081/h2-console/](http://localhost:8081/h2-console/)
 
 ### Configuración común:
-- JDBC URL: `jdbc:h2:mem:customerdb`
-- Usuario: `sa`
-- Contraseña: (dejar en blanco)
+- JDBC URL: `jdbc:h2:mem:transborderTec`
+- Usuario: `admin`
+- Contraseña: `admin`
 
 ---
 
@@ -84,34 +84,8 @@ La aplicación utiliza H2, una base de datos en memoria, ideal para pruebas ráp
 
 ---
 
-## 🗃️ Estructura general del proyecto
-
-```text
-src/
-├── main/
-│   ├── java/
-│   │   └── com/example/customer/
-│   │       ├── controller/
-│   │       ├── service/
-│   │       ├── model/
-│   │       └── repository/
-│   └── resources/
-│       ├── application.properties
-│       └── data.sql (opcional)
-```
-
----
-
 ## 📌 Notas
 
 - La base de datos se reinicia cada vez que se reinicia la aplicación.
 - Ideal para desarrollo, pruebas o prototipos rápidos.
-- Puedes migrar fácilmente a PostgreSQL o MySQL si deseas persistencia.
-
----
-
-## 📄 Licencia
-
-Este proyecto está destinado a fines académicos o de desarrollo interno. Puedes adaptarlo libremente.
-
 ---
